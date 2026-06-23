@@ -29,7 +29,7 @@ export default function RomanticAsk() {
   const [roaming, setRoaming] = useState(false);
   const [noPos, setNoPos] = useState({ left: 0, top: 0 });
 
-  const noBtnRef = useRef(null);
+  const noBtnRef = useRef<HTMLButtonElement>(null);
   const noSizeRef = useRef({ width: 120, height: 48 });
   const lastDodgeRef = useRef(0);
 
@@ -60,7 +60,7 @@ export default function RomanticAsk() {
 
   useEffect(() => {
     if (yesPressed) return;
-    function handlePointerMove(e) {
+    function handlePointerMove(e:any) {
       const btn = noBtnRef.current;
       if (!btn) return;
       const rect = btn.getBoundingClientRect();
