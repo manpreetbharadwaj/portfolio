@@ -76,8 +76,7 @@ const Career = () => {
               •	Built route management, trip history, driver monitoring, and alert notification features, improving fleet operator response time by ~30%.
               •	Set up CI/CD pipeline using GitHub Actions and Fastlane for automated iOS/Android builds and OTA deployments, cutting release cycle from 3 days to under 4 hours.
               •	Collaborated with backend and product teams to design scalable APIs handling 10K+ concurrent real-time data streams.
-              Senior Software Develop
-            </p>
+              Senior Software Develop</p>
           </div>
         </div>
       </div>
