@@ -10,6 +10,9 @@
   margin: auto;
   margin-bottom: 250px;
   padding: 120px 0px;
+  max-height: 600px;
+  overflow-y: auto;
+    scrollbar-width: none;
 }
 
 .career-section h2 {
